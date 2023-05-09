@@ -19,10 +19,10 @@ public class Aluno extends Pessoa{
         return this.curso;
     }
 
-    public Aluno (String nome, int idade, String endereco, double salario, String semestre, String curso){
+    public Aluno (String nome, int idade, String endereco, String semestre, String curso){
         super(nome, idade, endereco);
-        setSemestre(semestre);
-        setCurso(curso);
+        this.semestre = semestre;
+        this.curso = curso;
     }
 
     public Aluno(){

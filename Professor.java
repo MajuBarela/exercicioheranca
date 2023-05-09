@@ -12,7 +12,7 @@ public class Professor extends Funcionario {
     
     public Professor (String nome, int idade, String endereco, double salario, String disciplina){
         super(nome, idade, endereco, salario);
-        setDisciplina(disciplina);
+        this.disciplina = disciplina;
     }
 
     public Professor(){
